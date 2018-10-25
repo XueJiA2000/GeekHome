@@ -1,0 +1,129 @@
+.center{
+	height: 800px !important;
+}
+.center_right{
+	height: 700px !important;
+}
+.center_right .top .photo{
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	border: 2px solid #ececec;
+	float: left;
+	margin-left: 60px;
+}
+.top{
+	height: 200px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.center_right .top .user_card{
+	line-height: 40px;
+	float: left;
+	padding: 20px 0px 0px 25px;
+	text-align: left;
+}
+.user_card .vip{
+	color: #b0b0b0;
+	font-size: 14px;
+	display: block;
+}
+.center_right .top .information{
+	border: 0;
+	text-align: left;
+	float: right;
+	width: 380px;
+	height: 150px;
+}
+.center_right .top .information .info_list{
+	line-height:32px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.bottom ul li:nth-of-type(2n){
+	float: right;
+	margin-right: 30px;
+}
+.bottom ul li:nth-of-type(2n+1){
+	float: left;
+	margin-left: 70px;
+}
+.bottom ul li{
+	margin-top: 30px;
+}
+.bottom ul li img{
+	width: 80px;
+}
+.bottom ul li:nth-of-type(4){
+	margin-right: 20px;
+}
+.bottom ul li h3 .num{
+	color: #F24800;
+}
+.bottom ul li h3{
+	display: inline;
+	margin-left: 25px;
+	color: #8C8C8C;
+}
+.bottom ul li a{
+	position: relative;
+	top:20px;
+	right: 150px;
+	color: #8C8C8C;
+}
+/*中间开始*/
+/*中间右边开始*/
+.center_right{
+	width: 875px;
+	height: 600px;
+	background: white;
+	margin-left: 15px;
+	float: left;
+}
+.center_right .information,.center_right .goods{
+	width: 760px;
+	text-align: left;
+	height: 40px;
+	margin-left: 20px;
+	border-bottom: 1px solid #C5C5C5;
+}
+.center_right .goods{
+	padding-top: 20px;
+	height: 140px;
+	font-size: 14px;
+}
+.center_right .list{
+	width: 760px;
+	text-align: left;
+	padding-top: 20px;
+	margin-left: 20px;
+	border-bottom: 1px solid #C5C5C5;
+}
+.center_right .top .modify{
+	color:#f24800;
+}
+.list img{
+	width: 80px;
+	height: 80px;
+	padding-top: 10px;
+}
+.list span{
+	width: 220px;
+	height: 80px;
+	display: inline-block;
+}
+.list span:nth-of-type(2){
+	text-align: center;
+}
+.list span:nth-of-type(3){
+	text-align: center;
+	color: #F24800;
+	
+}
+.center_right .leave{
+	text-align: left;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+/*中间右边结束*/
+/*中间结束*/
+

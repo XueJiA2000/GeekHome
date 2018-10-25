@@ -1,0 +1,60 @@
+.main{
+	padding: 0;
+}
+.main .order{
+	height: 40px;
+	border-bottom: 2px solid #DCDCDC;
+}
+.main .order-head{
+	height: 200px;
+}
+.main .order span{
+	line-height: 40px;
+}
+.main .order .order-num{
+	font-weight: bold;
+}
+.main .order-cent{
+	background-color: #FFFFFF;
+	width: 100%;
+}
+/* star */
+	.BOX{
+		float: left;
+	}
+	#star {
+		position: relative;
+		width: 600px;
+		margin: 20px auto;
+		height: 24px;
+	}
+	
+	#star ul,
+	#star span {
+		float: left;
+		display: inline;
+		height: 19px;
+		line-height: 19px;
+		font-size: 13px;
+	}
+	
+	#star ul {
+		margin: 0 10px;
+	}
+	
+	#star li {
+		float: left;
+		width: 24px;
+		cursor: pointer;
+		text-indent: -9999px;
+		background: url(../images/star.png) no-repeat;
+	}
+	
+	#star strong {
+		color: #f60;
+		padding-left: 10px;
+	}
+	
+	#star li.on {
+		background-position: 0 -28px;
+	}

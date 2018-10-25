@@ -1,0 +1,299 @@
+.header-box{
+	width: 1200px;
+	height: 100px;
+	margin: 0px auto;
+}
+.header-box .login-box{
+	width: 190px;
+	height: 80px;
+	float: left;
+	margin-top: 15px;
+}
+.header-box .text-box{
+	width: 120px;
+	height: 30px;
+	margin-top: 50px;
+	line-height: 30px;
+	float: left;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin-left: 15px;
+}
+.header-box .up-index{
+	width: 120px;
+	height: 30px;
+	margin-top: 50px;
+	line-height: 30px;
+	float: right;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	margin-left: 35px;
+}
+.text-box .up-index a{
+	color: #666666 !important;
+}
+.header-box .up-index i{
+	color: #666666 !important;
+}
+.banner-box{
+	background:url(../images/login/login-bg.jpg) no-repeat right center;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.enterBox{
+	width: 368px;
+	height: 490px;
+	position: absolute;
+	top: 65px;
+	right: 180px;
+	background-color: #FFFFFF;
+}
+
+.tab-title {
+    font-size: 20px;
+    margin: 40px auto;
+    width: 300px;
+    text-align: center;
+}
+
+.register-line {
+    color: #B3ABAB;
+    display: inline-block;
+    border-width: 12px 2px 2px 1px;
+    border-style: solid solid solid none;
+    border-color: #B3ABAB #B3ABAB #B3ABAB -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    height: 10px;
+    line-height: 20px;
+    margin-right: 34px;
+    margin-left: 34px;
+}
+
+.enterBox form{
+	width: 298px;
+	height: 390px;
+	position: absolute;
+	right: 34px;
+	bottom: 28px;	
+}
+#icon{
+	font-size: 20px;
+	line-height: 25px;
+}
+.form-box #icon_1{
+	position: absolute;
+	top: 41px;
+	left: 13px;
+}
+.form-box #icon_2{
+	position: absolute;
+	top: 120px;
+	left: 15px;
+}
+.form-box #icon_3{
+	position: absolute;
+	top: 33px;
+	right: 13px;
+	display: none;
+}
+.form-box #icon_4{
+	position: absolute;
+	top: 100px;
+	right: 13px;
+	display: none;
+}
+
+.form-box input{
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #555555;
+	padding-left: 40px;
+	margin-top:30px;
+	background: rgba(255,255,255,0.6) no-repeat 16px 16px;
+}
+
+.form-box input[type=submit]{
+	cursor: pointer;
+}
+::-webkit-input-placeholder{
+	color: #555555;
+}
+.form-box input:focus{
+	
+}
+.form-box .mybtn{
+	width: 298px;
+	height: 46px;
+	border-radius: 25px;
+	margin: 0px auto;
+	background: #00b0dc;
+	padding: 3.5px 21px;
+	color:#FFFFFF;
+	margin-bottom: 25px;
+	font-size: 16px;
+}
+.form-box .mybtn:hover{
+	box-shadow: 0px 0px 5px #00B0DC;
+	text-shadow: 0 1px 0 #333333;
+	background: #00b0dc;
+	color: #fff;
+}
+
+.demo{
+	height: 48px;
+	float: right;
+	margin-top: 25px;
+	border: 1px dashed #fff;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.slider {
+	margin-bottom: 25px;
+}
+
+.rememberField {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 24px;
+    line-height: 20px;
+}
+
+.rememberField label {
+    margin-right: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #7F7F7F;
+}
+.zhuce .foget{
+	float: right;
+}
+.zhuce a{
+	padding-bottom: 15px;
+}
+
+.footer-box{
+	width: 1200px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 14px;
+	margin: 0px auto;
+}
+.left-text{
+	width: 500px;
+	height: 80px;
+	float: left;
+
+}
+
+.left-text ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.center-text{
+	width: 300px;
+	height: 80px;
+	float: left;
+	margin-left: 35px;
+}
+.center-text span{
+	color: #000;
+}
+.server-online {
+	display: inline-block;
+	width: 64px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #32a5e7;
+	color: white;
+}
+
+.right-icon{
+	width: 300px;
+	height: 80px;
+	float: left;
+	margin-left: 35px;
+	margin-top: 5px;
+}
+.right-icon span{
+	margin-left: 30px;
+}
+.right-icon span a i{
+	font-size: 18px;
+}
+body,div {
+	margin: 0;
+	padding: 0;
+}
+
+.ui-slider-wrap {
+	background: #e8e8e8;
+	position: relative;
+}
+
+.ui-slider-wrap .ui-slider-bg {
+	width: 0;
+}
+
+.ui-slider-wrap .ui-slider-btn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: move;
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ui-slider-wrap .ui-slider-btn {
+	background: #fff url(../images/login/slider.png) no-repeat center;
+}
+
+.ui-slider-wrap .ui-slider-btn.success {
+	background-image: url(../images/login/success.png);
+}
+
+.ui-slider-wrap .ui-slider-text {
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #666;
+}
+
+.ui-slider-wrap .ui-slider-no-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.login-icon{
+	margin-top: 25px;
+}
+.login-icon i{
+	margin: 10px 5px;
+	font-size: 14px;
+}
+.login-icon i:hover{
+	color: #009E94;
+}

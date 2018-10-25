@@ -1,0 +1,52 @@
+/*中间开始*/
+/*中间右边开始*/
+.center_right{
+	width: 875px;
+	margin-left: 15px;
+	background: white;
+	float: left;
+}
+.center_right .information,.center_right .goods{
+	width: 760px;
+	text-align: left;
+	height: 40px;
+	margin-left: 20px;
+	border-bottom: 1px solid #C5C5C5;
+}
+.center_right .goods{
+	padding-top: 20px;
+	height: 140px;
+	font-size: 14px;
+}
+.center_right .list{
+	width: 760px;
+	text-align: left;
+	padding-top: 20px;
+	margin-left: 20px;
+	border-bottom: 1px solid #C5C5C5;
+}
+.list img{
+	width: 80px;
+	height: 80px;
+	padding-top: 10px;
+}
+.list span{
+	width: 220px;
+	height: 80px;
+	display: inline-block;
+}
+.list span:nth-of-type(2){
+	text-align: center;
+}
+.list span:nth-of-type(3){
+	text-align: center;
+	color: #F24800;
+	
+}
+.center_right .leave{
+	text-align: left;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+/*中间右边结束*/
+/*中间结束*/

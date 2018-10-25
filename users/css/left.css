@@ -1,0 +1,45 @@
+/*中间左边开始*/
+.center{
+	background: #F5F5F5;
+}
+.center .center_left{
+	width: 250px;
+	height: 500px;
+	background: white;
+	float: left;
+	margin-left: 15px;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+#nav-head{
+	width: 1140px !important;
+	height: 60px;
+	font-size: 14px;
+	line-height: 60px;
+}
+#nav-head p{
+	margin-left: 15px;
+	float: left;
+}
+.center_left ul{
+	width: 220px;
+	padding-left: 10px;
+	text-align: left;
+}
+.center_left ul li a{
+	color: #9c9c9c;
+	font-size: 14px;
+}
+/*.center_left ul li a:active{
+	color: orange;
+}*/
+.center_left ul h3{
+	font-size: 16px;
+}
+.center_left ul h3,li{
+	line-height: 3;
+}
+.active{
+	color: #ff6700 !important;
+}
+/*中间左边结束*/

@@ -1,0 +1,135 @@
+/*中间开始*/
+/*中间右边开始*/
+.center_right{
+	width: 875px;
+	margin-left: 15px;
+	background: white;
+	float: left;
+}
+.center_right h1{
+	text-align: left;
+	color: #757575;
+	margin-left: 40px;
+}
+.nav li{
+	width: 90px;
+	font-size: 14px;
+}
+.tab-pane ul li{
+	float: left;
+	margin-left: -4px;
+}
+.tab-content .tab-pane ul li span{
+	margin-right: 10px;
+}
+.tab-content .tab-pane ul li .goods-name{
+	font-size: 14px;
+	color: #555555;
+}
+.tab-content .tab-pane ul li .price{
+	color: #555555;
+	font-size: 14px;
+}
+.tab-content .tab-pane ul li .total{
+	font-size: 18px;
+	font-weight: bold;
+}
+/*按钮*/
+.goods-btn{
+    padding-left: 22px;
+    margin-top: 19px;
+}
+.goods-btn .btn-small{
+    height: 30px;
+    line-height: 30px;
+    margin: 0px 7px;
+    font-size: 12px;
+    border-radius: 0;
+  	position: relative;
+  	top: -65px;
+  	right: -400px;
+}
+.goods-btn .delete{
+    border: 1px solid #B0B0B0;
+    background-color: #FFFFFF;
+}
+.goods-btn .delete:hover{
+    background: #DCDCDC;
+}
+.goods-btn .see{
+    background-color: #F25807;
+	border-color: #F25807;
+}
+.goods-btn .see a{
+	color: #FFF;
+}
+.goods-btn .delete a{
+	color: #757575;
+}
+/*收藏列表*/
+.xm-goods-item {
+    float: left;
+    width: 290px;
+    height: 348px;
+    padding-top: 40px;
+    border-bottom: 1px solid #E0E0E0;
+    text-align: center;
+}
+.xm-goods-item .price {
+    margin: 0px 0px 10px;
+    color: #F25807;
+    font-size: 14px;
+}
+.xm-goods-item h3 a{
+	font-size: 16px;
+}
+.xm-goods-item .actions{
+    width: 90%;
+    padding-left: 22px;
+    display: none;
+}
+.xm-goods-item .actions .btn-small{
+	width: 105px;
+	height: 30px;
+	line-height: 30px;
+    margin: 0px 7px;
+    font-size: 12px;
+    border-radius: 0;
+    background-color: #FFFFFF;
+}
+.xm-goods-item .actions .btn-line-gray{
+    border: 1px solid #B0B0B0;
+    float: left;
+}
+.xm-goods-item .actions .btn-line-gray:hover{
+    background: #DCDCDC;
+}
+.xm-goods-item .actions .btn-primary{
+    background-color: #F25807;
+	border-color: #F25807;
+}
+.xm-goods-item .actions .btn-primary a{
+	color: #FFF;
+	float: right;
+	
+}
+.xm-goods-item .actions .btn-line-gray a{
+	color: #757575;
+}
+/*商品评论*/
+.goods-pin{
+	margin-top: 25px;
+}
+.goods-pin li{
+	width: 120px;
+}
+.nav-tabs{
+	margin: 0px 0px 10px 40px;
+}
+.tab-content .tab-pane .xm-goods-item .price{
+	color: #F25807;
+	font-size: 14px;
+}
+/*中间右边结束*/
+/*中间结束*/
+
